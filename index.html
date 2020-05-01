@@ -1,0 +1,95 @@
+><!DOCTYPE html>
+<html>
+<head>
+
+<title>Julian Jabbour javascript quiz</title>
+<link rel="stylesheet" type="text/css" href="style.css"/> 
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<script src = "main.js"></script>
+
+</head>
+
+
+<body>
+<h1 class ="title">Javascript quiz</h1>
+
+
+<form id = "quiz" name = "quiz">
+
+
+<p class = "questions">Which terminal command creates a directory?</p>
+<input type = "radio" id = "mc" name = "question1" value = "mkdir"> mkdir<br>
+<input type = "radio" id = "mc" name = "question1" value = "createdirectory"> createdirectory<br>
+<input type = "radio" id = "mc" name = "question1" value = "touchdir"> touchdir<br>
+<input type = "radio" id = "mc" name = "question1" value = "newdir"> newdir<br>
+
+<p class = "questions">Which terminal command is used to change to a different directory?</p>
+<input type = "radio" id = "mc" name = "question2" value = "changedir"> changedir<br>
+<input type = "radio" id = "mc" name = "question2" value = "switchdir"> switchdir<br>
+<input type = "radio" id = "mc" name = "question2" value = "cd"> cd<br>
+<input type = "radio" id = "mc" name = "question2" value = "sd"> sd<br>
+
+<p class = "questions">What is a string in JavaScript</p>
+<input type = "radio" id = "mc" name = "question3" value = "JavaScript string that you can tie your notes to> git initialize">JavaScript string that you can tie your notes to<br>
+<input type = "radio" id = "mc" name = "question3" value = "JavaScript strings are used for storing and manipulating text",> JavaScript strings are used for storing and manipulating text<br>
+<input type = "radio" id = "mc" name = "question3"value = "JavaScript string that you can pluck and create musical sound"> JavaScript string that you can pluck and create musical sound<br>
+<input type = "radio" id = "mc" name = "question3"value = "All od the above">All of the above<br>
+
+
+<p class = "questions">What command in the terminal lists all of the files in the current directory</p>
+<input type = "radio" id = "mc" name = "question4" value = "ls"> ls<br>
+<input type = "radio" id = "mc" name = "question4" value = "list"> list<br>
+<input type = "radio" id = "mc" name = "question4" value = "list files"> list files<br>
+<input type = "radio" id = "mc" name = "question4" value = "files"> files<br>
+
+<p class = "questions">Where is the correct place to insert a JavaScript? </p>
+<input type = "radio" id = "mc" name = "question5" value = "The body section"> The body section<br>
+<input type = "radio" id = "mc" name = "question5" value = "The head section"> The head section<br>
+<input type = "radio" id = "mc" name = "question5" value = "None of the above"> None of the above<br>
+<input type = "radio" id = "mc" name = "question5" value = "All of the above"> All of the above<br>
+
+<p class = "questions">How to write an IF statement in JavaScript?</p>
+<input type = "radio" id = "mc" name = "question6" value = "if i == 5 then"> if i == 5 then<br>
+<input type = "radio" id = "mc" name = "question6" value = "if i = 5"> if i = 5<br>
+<input type = "radio" id = "mc" name = "question6" value = "if (i === 5)"> if (i === 5)<br>
+<input type = "radio" id = "mc" name = "question6" value = "None of the above"> None of the above<br>
+
+<p class = "questions">What does the Controller do in the MVC</p>
+<input type = "radio" id = "mc" name = "question7" value = "charge"> is in charge of the model and view<br>
+<input type = "radio" id = "mc" name = "question7" value = "control"> controlling the flow of the application execution<br>
+<input type = "radio" id = "mc" name = "question7" value = "check"> checks the database<br>
+<input type = "radio" id = "mc" name = "question7" value = "display"> displays the viewports<br>
+
+<p class = "questions">What command must be run in the terminal after creating a new model?</p>
+<input type = "radio" id = "mc" name = "question8" value = "rake:routes"> rake:routes<br>
+<input type = "radio" id = "mc" name = "question8" value = "rake:dbmigrate"> rake:dbmigrate<br>
+<input type = "radio" id = "mc" name = "question8" value = "rake:migration"> rake:migration<br>
+<input type = "radio" id = "mc" name = "question8" value = "rake:model"> rake:model<br>
+
+<p class = "questions">What is the correct way to write a JavaScript array?</p>
+<input type = "radio" id = "mc" name = "question9" value = "var color = red, blue, green"> var color = red, blue, green<br>
+<input type = "radio" id = "mc" name = "question9" value = "var color = [ red, blue, green]"> "var color = [ red, blue, green]<br>
+<input type = "radio" id = "mc" name = "question9" value = "let color = ' red, blue, green '"> let color = ' red, blue, green '<br>
+<input type = "radio" id = "mc" name = "question9" value = "None of the above"> None of the above<br>
+
+<p class = "questions">What does the javascript command document.getElementById() do?</p>
+<input type = "radio" id = "mc" name = "question10" value = "return"> returns the element value associated with the id variable<br>
+<input type = "radio" id = "mc" name = "question10" value = "html"> changes the html code<br>
+<input type = "radio" id = "mc" name = "question10" value = "variable"> gets the variables associated with the id<br>
+<input type = "radio" id = "mc" name = "question10" value = "class"> returns the element value associated with the class variable<br>
+
+
+
+<input id = "button" type = "button" value = "SUBMIT" onclick = "check();">
+
+
+</form>
+
+<div id = "after_submit">
+<p id = "number_correct"></p>
+<p id = "message"></p>
+<img id = "picture">
+</div>
+</html>
+
+</body>
