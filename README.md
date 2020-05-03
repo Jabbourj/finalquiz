@@ -10,6 +10,6 @@
 
 5. changed somethe css widths 
 
-6. The sumbit button is a little larger
+6. The submit button is a little larger
 
 7.Added a perfect tag and gif for it.
